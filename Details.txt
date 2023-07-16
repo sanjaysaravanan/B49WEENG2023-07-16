@@ -1,0 +1,76 @@
+Topics:
+
+  Class:
+    static props & methods/functions
+
+    Inheitence:
+      Iheriting the properities/behavior from parent class
+      using extends keyword
+
+    Getter:
+      getter functions are used to get the property values of an object/entity
+
+    Setter:
+      getter functions are used to set the property values of an object/entity
+
+
+  Callback function:
+    a function passed as an argument to other function is called callback function
+    Eg: sayHi, a function passed as an argument to doAction function
+      const sayHi = (name) => {
+        console.log('Hi Hello', name);
+      }
+
+      const doAction = (action) => {
+        action('Sanjay');// calling the action
+      }
+
+      doAction(sayHi);
+
+  Built in utility Array Methods/Functions
+    forEach:
+      Performs the specified callbackfn/action for each element in an array.
+      return: undefined
+
+    includes:
+      Determines whether an array includes a certain element, 
+      return: true or false
+
+    indexOf:
+      Returns the index of the first occurrence of a value in an array, or -1 if it is not present.
+
+    lastIndexOf:
+      Returns the index of the last occurrence of a specified value in an array, or -1 if it is not present.
+
+    Map:
+      Calls a defined callback function on each element of an array, and returns an array that contains the results.
+      Returns a new array formed using the return values on each function call
+
+    Filter:
+      Returns the elements of an array that meet the condition specified in a callback function.
+      Return: new array which satisfies the condition in callback function
+      Note: Callback function used for filter should return bool value( true/false )
+
+    find:
+      Returns the value of the first element in the array where predicate is true, and undefined otherwise.
+      return the element of an array where predicate is true
+
+
+Next Session:
+  findLast:
+
+  findIndex:
+
+  findLastIndex
+
+  Reduce
+
+Tasks:
+
+  Day - 5: https://docs.google.com/document/d/1ckh6RegMhmyBwqbbtYHygA8Y0Q10TqHW8fkjX0ZPw3g/edit
+
+  Day - 6: https://docs.google.com/document/d/1iza9j-P6zsN0gZ9ZVuNH0lMxdUeuAYfaGMPvyWL_IcY/edit
+
+  Hint: Desturcturing, nested Desturcturing
+
+
