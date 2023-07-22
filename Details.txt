@@ -3,19 +3,19 @@ Topics:
   Class:
     static props & methods/functions
 
-    Inheitence:
-      Iheriting the properities/behavior from parent class
-      using extends keyword
+    Inheritance:
+      Inheriting the properties/behavior from the parent class
+      using extends keyword, during construction use super( props for the parent construction )
 
     Getter:
       getter functions are used to get the property values of an object/entity
 
     Setter:
-      getter functions are used to set the property values of an object/entity
+      Setter functions are used to set the property values of an object/entity
 
 
   Callback function:
-    a function passed as an argument to other function is called callback function
+    a function passed as an argument to another function is called a callback function
     Eg: sayHi, a function passed as an argument to doAction function
       const sayHi = (name) => {
         console.log('Hi Hello', name);
@@ -27,9 +27,9 @@ Topics:
 
       doAction(sayHi);
 
-  Built in utility Array Methods/Functions
+  Built-in utility Array Methods/Functions
     forEach:
-      Performs the specified callbackfn/action for each element in an array.
+      Performs the specified callback fn/action for each element in an array.
       return: undefined
 
     includes:
